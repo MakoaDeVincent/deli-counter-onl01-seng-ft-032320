@@ -1,15 +1,12 @@
 # Write your code here.
 def line(katz_deli)
-  arr = []
 
-  if arr.length > 0
+  if katz_deli.length > 0
+    serving = "The line is currently: "
     arr.each_with_index do |name, index|
-      arr << "#{index += 1}. #{name}"
-      return "The line is currently: " + arr
-
-
-
-  end
+      serving += "#{index += 1}. #{name}"
+    end
+    puts serving
   else
     puts "The line is currently empty."
   end
