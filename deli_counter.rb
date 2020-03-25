@@ -9,4 +9,3 @@ def line(name)
     puts "The line is currently empty."
   end
 end
-
