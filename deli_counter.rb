@@ -10,6 +10,3 @@ def line(name)
   end
 end
 
-
-arr.each_with_index do |name, index|
-  return "#{index += 1}. #{name}"
