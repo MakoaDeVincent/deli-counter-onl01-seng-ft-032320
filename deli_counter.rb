@@ -7,7 +7,7 @@ def line(katz_deli)
       arr << "#{index += 1}. #{name}"
       return "The line is currently: " + arr
 
-    
+
 
   end
   else
