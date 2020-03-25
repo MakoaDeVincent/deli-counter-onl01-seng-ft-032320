@@ -3,7 +3,7 @@ def line(katz_deli)
 
   if katz_deli.length > 0
     serving = "The line is currently: "
-    arr.each_with_index do |name, index|
+    katz_deli.each_with_index do |name, index|
       serving += "#{index += 1}. #{name}"
     end
     puts serving
